@@ -45,7 +45,7 @@ def containers_scope_fixture(request):
 
 
 def containers_scope(fixture_name, config):
-    return config.getoption("--containers-scope")
+    return config.getoption("--containers-scope", "session")
 
 
 def get_docker_ip():
