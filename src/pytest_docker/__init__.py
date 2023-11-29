@@ -7,6 +7,7 @@ from .plugin import (
     docker_setup,
     docker_cleanup,
     docker_services,
+    pytest_addoption,
 )
 
 __all__ = [
